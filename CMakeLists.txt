@@ -59,7 +59,7 @@ endif()
 option(SPDLOG_BUILD_ALL "Build all artifacts" OFF)
 
 # build shared option
-option(SPDLOG_BUILD_SHARED "Build shared library" OFF)
+option(SPDLOG_BUILD_SHARED "Build shared library" ON)
 
 # precompiled headers option
 option(SPDLOG_ENABLE_PCH "Build static or shared library using precompiled header to speed up compilation time" OFF)
